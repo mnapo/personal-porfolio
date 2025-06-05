@@ -1,0 +1,20 @@
+export const skillsData = [
+  "html",
+  "CSS",
+  "Go",
+  "Javascript",
+  "React",
+  "MongoDB",
+  "Next JS",
+  "Nginx",
+  "ViteJS",
+  "Git",
+  "MaterialUI",
+  "Bootstrap",
+  "Tailwind",
+  "Figma",
+  "Firebase",
+  "Photoshop",
+  "Python",
+  "Wordpress"
+];
