@@ -1,7 +1,7 @@
 export const UserData = {
   name: "Matías Nápoli",
   about : "I'm a Fullstack developer and Data Science+AI student",
-  resumeUrl : "",
+  resumeUrl : "../Assets/images/CV.pdf",
   FooterLink : "https://www.linkedin.com/in/mnap",
   socialMedia: [
     {
