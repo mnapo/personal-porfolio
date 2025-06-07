@@ -1,7 +1,9 @@
+import resumeUrl from "../Assets/CV.pdf";
+
 export const UserData = {
   name: "Matías Nápoli",
   about : "I'm a Fullstack developer and Data Science+AI student",
-  resumeUrl : "../Assets/images/CV.pdf",
+  resumeUrl : resumeUrl,
   FooterLink : "https://www.linkedin.com/in/mnap",
   socialMedia: [
     {
