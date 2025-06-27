@@ -27,7 +27,7 @@ function Home() {
             Hello <span className="wave">👋</span>
           </h2>
           <h2 className="pt-2 text-2xl font-semibold leading-tight text-gray-900">
-            Im {UserData.name}
+            I'm {UserData.name}
           </h2>
           <TypewriterText />
 
