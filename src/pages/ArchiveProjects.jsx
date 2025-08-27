@@ -26,7 +26,7 @@ function ArchiveProjects() {
       </div>
       <div className="mx-auto flex w-[90%] items-center justify-center pb-8 pt-2 lg:p-4 lg:pt-4">
         <div className="font-poppins text-center  text-2xl">
-          The project I work on
+          Projects
         </div>
       </div>
       <div className="mx-auto mb-2 grid w-[90%] grid-cols-1 gap-4 sm:mb-8 md:grid-cols-2">
