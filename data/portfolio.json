@@ -1,6 +1,6 @@
 {
   "profile": {
-    "name": "Matías Napoli",
+    "name": "Matías Nápoli",
     "role": "Desarrollador Full Stack",
     "subrole": "Estudiante de Ciencia de Datos e IA",
     "tagline": "Construyo aplicaciones web de extremo a extremo y exploro datos para resolver problemas reales.",
@@ -47,7 +47,7 @@
       "current": true,
       "description": [
         "Diseño, desarrollo y despliegue de aplicaciones web adaptables de extremo a extremo con JavaScript, HTML5, CSS3 y React.",
-        "Desarrollo de plataformas web en producción como yalotenes.com.ar, nextcell.com.ar, iltanolaino.com.ar y foxtravel.vercel.app.",
+        "Desarrollo de plataformas web en producción como yalotenes.com.ar, nextcell.com.ar, iltanolaino.com.ar y foxtravel-web.vercel.app.",
         "Arquitectura de software a medida, incluyendo motores de cotización automatizados (Presupuestador) y ticketing interno (Ticketeador).",
         "Administración y personalización de sitios WordPress: hosting, plugins y buenas prácticas de SEO y rendimiento."
       ],
@@ -68,34 +68,34 @@
   ],
   "projects": [
     {
-      "name": "yalotenes.com.ar",
-      "description": "Plataforma web desarrollada y desplegada en producción.",
+      "name": "YaLoTenés",
+      "description": "Tienda E-commerce desarrollada y desplegada en producción.",
       "url": "https://yalotenes.com.ar",
       "tags": ["React", "Web"]
     },
     {
-      "name": "nextcell.com.ar",
-      "description": "Plataforma web desarrollada y desplegada en producción.",
+      "name": "NextCell",
+      "description": "Tienda y Administrador para NextCell (importador y mayorista)",
       "url": "https://nextcell.com.ar",
-      "tags": ["React", "Web"]
+      "tags": ["WordPress", "Web"]
     },
     {
-      "name": "iltanolaino.com.ar",
+      "name": "Laino Pizzas",
       "description": "Plataforma web desarrollada y desplegada en producción.",
       "url": "https://iltanolaino.com.ar",
       "tags": ["Web"]
     },
     {
-      "name": "foxtravel.vercel.app",
+      "name": "Agencia Foxtravel",
       "description": "Aplicación web de viajes desplegada en Vercel.",
-      "url": "https://foxtravel.vercel.app",
+      "url": "https://foxtravel-web.vercel.app",
       "tags": ["Next.js", "Vercel"]
     },
     {
       "name": "Presupuestador",
       "description": "Motor de cotización automatizado. Código disponible en GitHub.",
       "url": "https://github.com/mnapo",
-      "tags": ["Herramienta", "Automatización"]
+      "tags": ["Expo", "ReactNative"]
     },
     {
       "name": "Ticketeador",
