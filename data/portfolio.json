@@ -1,0 +1,145 @@
+{
+  "profile": {
+    "name": "Matías Napoli",
+    "role": "Desarrollador Full Stack",
+    "subrole": "Estudiante de Ciencia de Datos e IA",
+    "tagline": "Construyo aplicaciones web de extremo a extremo y exploro datos para resolver problemas reales.",
+    "summary": "Desarrollador Full Stack con foco en el ecosistema JavaScript/React y experiencia real desplegando plataformas en producción. Actualmente formándome en Ciencia de Datos e IA, combinando desarrollo de software con análisis de datos y machine learning.",
+    "location": "Buenos Aires, Argentina",
+    "email": "napolimatiase@gmail.com",
+    "phone": "+54 11 5486 4458",
+    "github": "https://github.com/mnapo",
+    "githubUser": "mnapo",
+    "avatar": "/avatar.png",
+    "status": "Disponible para nuevos proyectos"
+  },
+  "skillCategories": [
+    { "id": "lang", "label": "Programación" },
+    { "id": "frameworks", "label": "Frameworks y Herramientas" },
+    { "id": "data", "label": "Ciencia de Datos y ML" }
+  ],
+  "skills": [
+    { "name": "JavaScript (ES6+)", "category": "lang" },
+    { "name": "Python", "category": "lang" },
+    { "name": "SQL", "category": "lang" },
+    { "name": "HTML5", "category": "lang" },
+    { "name": "CSS3", "category": "lang" },
+    { "name": "Deluge (Zoho)", "category": "lang" },
+    { "name": "React", "category": "frameworks" },
+    { "name": "Next.js", "category": "frameworks" },
+    { "name": "Expo", "category": "frameworks" },
+    { "name": "WordPress", "category": "frameworks" },
+    { "name": "Git", "category": "frameworks" },
+    { "name": "GitHub", "category": "frameworks" },
+    { "name": "Excel / Google Sheets", "category": "frameworks" },
+    { "name": "Análisis de Datos", "category": "data" },
+    { "name": "Scikit-Learn", "category": "data" },
+    { "name": "NumPy", "category": "data" },
+    { "name": "Pandas", "category": "data" },
+    { "name": "Jupyter", "category": "data" },
+    { "name": "Deepnote", "category": "data" }
+  ],
+  "experience": [
+    {
+      "role": "Desarrollador Full Stack",
+      "company": "Freelance",
+      "period": "2017 — Presente",
+      "current": true,
+      "description": [
+        "Diseño, desarrollo y despliegue de aplicaciones web adaptables de extremo a extremo con JavaScript, HTML5, CSS3 y React.",
+        "Desarrollo de plataformas web en producción como yalotenes.com.ar, nextcell.com.ar, iltanolaino.com.ar y foxtravel.vercel.app.",
+        "Arquitectura de software a medida, incluyendo motores de cotización automatizados (Presupuestador) y ticketing interno (Ticketeador).",
+        "Administración y personalización de sitios WordPress: hosting, plugins y buenas prácticas de SEO y rendimiento."
+      ],
+      "clients": []
+    },
+    {
+      "role": "Soporte I.T. (Ecosistema Zoho)",
+      "company": "Freelance / Contrato",
+      "period": "2022 — 2023",
+      "current": false,
+      "description": [
+        "Desarrollo de funciones personalizadas, scripts de automatización y criterios de flujo de trabajo con Deluge Script para optimizar procesos comerciales y CRM.",
+        "Configuración, prueba y optimización de reglas de automatización, notificaciones y flujos de trabajo entre módulos.",
+        "Mantenimiento de sistemas, migraciones de datos seguras y resolución de tickets técnicos críticos garantizando alta disponibilidad."
+      ],
+      "clients": ["Spinel Mk", "Norchef", "Numancia", "Distribuidora Gondwana"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "yalotenes.com.ar",
+      "description": "Plataforma web desarrollada y desplegada en producción.",
+      "url": "https://yalotenes.com.ar",
+      "tags": ["React", "Web"]
+    },
+    {
+      "name": "nextcell.com.ar",
+      "description": "Plataforma web desarrollada y desplegada en producción.",
+      "url": "https://nextcell.com.ar",
+      "tags": ["React", "Web"]
+    },
+    {
+      "name": "iltanolaino.com.ar",
+      "description": "Plataforma web desarrollada y desplegada en producción.",
+      "url": "https://iltanolaino.com.ar",
+      "tags": ["Web"]
+    },
+    {
+      "name": "foxtravel.vercel.app",
+      "description": "Aplicación web de viajes desplegada en Vercel.",
+      "url": "https://foxtravel.vercel.app",
+      "tags": ["Next.js", "Vercel"]
+    },
+    {
+      "name": "Presupuestador",
+      "description": "Motor de cotización automatizado. Código disponible en GitHub.",
+      "url": "https://github.com/mnapo",
+      "tags": ["Herramienta", "Automatización"]
+    },
+    {
+      "name": "Ticketeador",
+      "description": "Software de ticketing interno para eficiencia operativa. Código en GitHub.",
+      "url": "https://github.com/mnapo",
+      "tags": ["Herramienta", "Interno"]
+    }
+  ],
+  "education": [
+    {
+      "title": "Tecnicatura Superior en Ciencia de Datos e IA",
+      "institution": "Instituto de Formación Técnica Superior N°24",
+      "period": "2023 — 2025 (expectativa de egreso)"
+    },
+    {
+      "title": "Estudios Universitarios de Medicina y Bioingeniería",
+      "institution": "Universidad de Buenos Aires (UBA)",
+      "period": "2013 — 2020"
+    },
+    {
+      "title": "Técnico en Reparación de PC (I y II)",
+      "institution": "Centro de Formación Profesional N°28 Suterh",
+      "period": "2010 — 2011"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Análisis de Datos con Python",
+      "institution": "freeCodeCamp.org",
+      "year": "2024"
+    },
+    {
+      "title": "Desarrollo Web JS Full Stack",
+      "institution": "freeCodeCamp.org",
+      "year": "2019"
+    },
+    {
+      "title": "Maquetación Web I y II",
+      "institution": "Centro de Formación Profesional N°28 Suterh",
+      "year": "2011 — 2012"
+    }
+  ],
+  "languages": [
+    { "name": "Español", "level": "Nativo" },
+    { "name": "Inglés", "level": "Profesional Intermedio-Avanzado (Liceo Cultural Británico)" }
+  ]
+}
