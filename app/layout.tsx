@@ -7,14 +7,14 @@ const geistSans = Geist({ subsets: ["latin"], variable: "--font-geist-sans" })
 const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" })
 
 export const metadata: Metadata = {
-  title: "Matías Napoli — Desarrollador Full Stack",
+  title: "Matías Nápoli • Desarrollador Full Stack",
   description:
-    "Portfolio de Matías Napoli, Desarrollador Full Stack y estudiante de Ciencia de Datos e IA. Experiencia, skills y proyectos.",
+    "Portfolio de Matías Nápoli, Desarrollador Full Stack y estudiante de Ciencia de Datos e IA. Experiencia, skills y proyectos.",
   generator: "v0.app",
   openGraph: {
-    title: "Matías Napoli — Desarrollador Full Stack",
+    title: "Matías Nápoli • Desarrollador Full Stack",
     description:
-      "Portfolio de Matías Napoli, Desarrollador Full Stack y estudiante de Ciencia de Datos e IA.",
+      "Portfolio de Matías Nápoli, Desarrollador Full Stack y estudiante de Ciencia de Datos e IA.",
     type: "website",
   },
 }
