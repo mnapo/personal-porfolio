@@ -30,7 +30,6 @@
     { "name": "Expo", "category": "frameworks" },
     { "name": "WordPress", "category": "frameworks" },
     { "name": "Git", "category": "frameworks" },
-    { "name": "GitHub", "category": "frameworks" },
     { "name": "Excel / Google Sheets", "category": "frameworks" },
     { "name": "Análisis de Datos", "category": "data" },
     { "name": "Scikit-Learn", "category": "data" },
@@ -140,6 +139,6 @@
   ],
   "languages": [
     { "name": "Español", "level": "Nativo" },
-    { "name": "Inglés", "level": "Profesional Intermedio-Avanzado (Liceo Cultural Británico)" }
+    { "name": "Inglés", "level": "Intermedio-Avanzado (Liceo Cultural Británico)" }
   ]
 }

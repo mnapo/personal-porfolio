@@ -54,7 +54,7 @@ export function BackgroundSection() {
               {languages.map((l, i) => (
                 <li key={i} className="flex flex-wrap items-baseline gap-x-2 text-sm">
                   <span className="font-medium">{l.name}</span>
-                  <span className="text-muted-foreground">— {l.level}</span>
+                  <span className="text-muted-foreground">| {l.level}</span>
                 </li>
               ))}
             </ul>
