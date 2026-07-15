@@ -10,7 +10,6 @@ export const metadata: Metadata = {
   title: "Matías Nápoli • Desarrollador Full Stack",
   description:
     "Portfolio de Matías Nápoli, Desarrollador Full Stack y estudiante de Ciencia de Datos e IA. Experiencia, skills y proyectos.",
-  generator: "v0.app",
   openGraph: {
     title: "Matías Nápoli • Desarrollador Full Stack",
     description:
