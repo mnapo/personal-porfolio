@@ -101,7 +101,13 @@
       "description": "Software de ticketing interno para eficiencia operativa. Código en GitHub.",
       "url": "https://github.com/mnapo",
       "tags": ["Herramienta", "Interno"]
-    }
+    },
+    {
+      "name": "WooLabels",
+      "description": "Herramienta para impresión de etiquetas de productos de WooCommerce",
+      "url": "https://github.com/mnapo/woo-labels",
+      "tags": ["Next.js", "WooCommerce"]
+    },
   ],
   "education": [
     {
