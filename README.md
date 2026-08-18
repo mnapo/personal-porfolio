@@ -6,5 +6,5 @@ Hi. My name is Matías Nápoli. I'm from Buenos Aires, Argentina. This is my per
 - [x] Sections
 - [x] Navbar
 - [ ] Multilanguage
-- [ ] Jobs/projects component
-- [ ] Theming
+- [x] Jobs/projects component
+- [x] Theming
