@@ -3,6 +3,7 @@
 import { ArrowUpRight } from "lucide-react"
 import { GithubIcon } from "@/components/icons"
 import { getPortfolio } from "@/lib/portfolio"
+import { getTranslations } from "@/lib/translations"
 import { useLanguage } from "@/components/language-provider"
 import { SectionHeading } from "@/components/section-heading"
 
