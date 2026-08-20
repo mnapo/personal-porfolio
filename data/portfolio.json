@@ -79,6 +79,12 @@
       "tags": ["WordPress", "Web"]
     },
     {
+      "name": "WooLabels",
+      "description": "Herramienta para impresión de etiquetas de productos de WooCommerce",
+      "url": "https://github.com/mnapo/woo-labels",
+      "tags": ["Next.js", "WooCommerce", "Dev-tools"]
+    },
+    {
       "name": "Laino Pizzas",
       "description": "Plataforma web desarrollada y desplegada en producción.",
       "url": "https://iltanolaino.com.ar",
@@ -89,12 +95,6 @@
       "description": "Aplicación web de viajes desplegada en Vercel.",
       "url": "https://foxtravel-web.vercel.app",
       "tags": ["Next.js", "Vercel"]
-    },
-    {
-      "name": "WooLabels",
-      "description": "Herramienta para impresión de etiquetas de productos de WooCommerce",
-      "url": "https://github.com/mnapo/woo-labels",
-      "tags": ["Next.js", "WooCommerce"]
     },
     {
       "name": "Presupuestador",
