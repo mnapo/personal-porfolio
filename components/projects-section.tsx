@@ -1,10 +1,12 @@
 import { ArrowUpRight } from "lucide-react"
 import { GithubIcon } from "@/components/icons"
-import { portfolio } from "@/lib/portfolio"
+import { getPortfolio } from "@/lib/portfolio"
+import { useLanguage } from "@/components/language-provider"
 import { SectionHeading } from "@/components/section-heading"
 
 export function ProjectsSection() {
-  const { projects, profile } = portfolio
+  const { language } = useLanguage()
+  const { projects, profile } = getPortfolio(language)
 
   return (
     <section id="proyectos" className="scroll-mt-20 border-t border-border py-14">
