@@ -1,3 +1,5 @@
+"use client"
+
 import { Mail, ArrowUpRight } from "lucide-react"
 import { GithubIcon } from "@/components/icons"
 import { portfolio } from "@/lib/portfolio"

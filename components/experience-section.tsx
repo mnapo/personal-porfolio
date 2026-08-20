@@ -1,3 +1,5 @@
+"use client"
+
 import { Briefcase } from "lucide-react"
 import { portfolio } from "@/lib/portfolio"
 import { SectionHeading } from "@/components/section-heading"

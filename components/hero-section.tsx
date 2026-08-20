@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image"
 import { Mail, MapPin, ArrowUpRight } from "lucide-react"
 import { GithubIcon } from "@/components/icons"
