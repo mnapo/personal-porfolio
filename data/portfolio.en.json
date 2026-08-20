@@ -12,5 +12,145 @@
     "githubUser": "mnapo",
     "avatar": "/avatar.png",
     "status": "Available for new projects"
-  }
+  },
+  "skillCategories": [
+    { "id": "lang", "label": "Programming" },
+    { "id": "frameworks", "label": "Frameworks & Tools" },
+    { "id": "data", "label": "Data Science & ML" }
+  ],
+  "skills": [
+    { "name": "JavaScript (ES6+)", "category": "lang" },
+    { "name": "Python", "category": "lang" },
+    { "name": "SQL", "category": "lang" },
+    { "name": "HTML5", "category": "lang" },
+    { "name": "CSS3", "category": "lang" },
+    { "name": "Deluge (Zoho)", "category": "lang" },
+    { "name": "React", "category": "frameworks" },
+    { "name": "Next.js", "category": "frameworks" },
+    { "name": "Expo", "category": "frameworks" },
+    { "name": "WordPress", "category": "frameworks" },
+    { "name": "Git", "category": "frameworks" },
+    { "name": "Excel / Google Sheets", "category": "frameworks" },
+    { "name": "Data Analysis", "category": "data" },
+    { "name": "Scikit-Learn", "category": "data" },
+    { "name": "NumPy", "category": "data" },
+    { "name": "Pandas", "category": "data" },
+    { "name": "Jupyter", "category": "data" },
+    { "name": "Deepnote", "category": "data" }
+  ],
+  "experience": [
+    {
+      "role": "Full Stack Developer",
+      "company": "Freelance",
+      "period": "2017 — Present",
+      "current": true,
+      "description": [
+        "Design, development and deployment of end-to-end responsive web applications using JavaScript, HTML5, CSS3 and React.",
+        "Development of production web platforms such as yalotenes.com.ar, nextcell.com.ar, iltanolaino.com.ar and foxtravel-web.vercel.app.",
+        "Custom software architecture, including automated quotation engines (Presupuestador) and internal ticketing systems (Ticketeador).",
+        "Administration and customization of WordPress websites: hosting, plugins, SEO best practices and performance optimization."
+      ],
+      "clients": []
+    },
+    {
+      "role": "I.T. Support (Zoho Ecosystem)",
+      "company": "Freelance / Contract",
+      "period": "2022 — 2023",
+      "current": false,
+      "description": [
+        "Development of custom functions, automation scripts and workflow criteria using Deluge Script to optimize business and CRM processes.",
+        "Configuration, testing and optimization of automation rules, notifications and workflows across modules.",
+        "System maintenance, secure data migrations and resolution of critical technical tickets while ensuring high availability."
+      ],
+      "clients": ["Spinel Mk", "Norchef", "Numancia", "Distribuidora Gondwana"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "YaLoTenés",
+      "description": "E-commerce store developed and deployed in production.",
+      "url": "https://yalotenes.com.ar",
+      "tags": ["React", "Web"]
+    },
+    {
+      "name": "NextCell",
+      "description": "Store and administration platform for NextCell (importer and wholesaler).",
+      "url": "https://nextcell.com.ar",
+      "tags": ["WordPress", "Web"]
+    },
+    {
+      "name": "WooLabels",
+      "description": "Tool for printing WooCommerce product labels.",
+      "url": "https://github.com/mnapo/woo-labels",
+      "tags": ["WooCommerce", "Dev-tools"]
+    },
+    {
+      "name": "Ticket Management",
+      "description": "IT management tool.",
+      "url": "https://github.com/mnapo/ticket-management",
+      "tags": ["Next.js", "Dev-tools"]
+    },
+    {
+      "name": "Laino Pizzas",
+      "description": "Web platform developed and deployed in production.",
+      "url": "https://iltanolaino.com.ar",
+      "tags": ["Web"]
+    },
+    {
+      "name": "Foxtravel Agency",
+      "description": "Travel web application deployed on Vercel.",
+      "url": "https://foxtravel-web.vercel.app",
+      "tags": ["Next.js", "Vercel"]
+    },
+    {
+      "name": "Presupuestador",
+      "description": "Automated quotation engine. Source code available on GitHub.",
+      "url": "https://github.com/mnapo",
+      "tags": ["Expo", "ReactNative"]
+    },
+    {
+      "name": "Ticketeador",
+      "description": "Internal ticketing software for operational efficiency. Source code available on GitHub.",
+      "url": "https://github.com/mnapo/expo-app-wrapper",
+      "tags": ["Tool", "Internal"]
+    }
+  ],
+  "education": [
+    {
+      "title": "Higher Technical Degree in Data Science & AI",
+      "institution": "Instituto de Formación Técnica Superior N°24",
+      "period": "2023 — 2025 (expected graduation)"
+    },
+    {
+      "title": "University Studies in Medicine and Bioengineering",
+      "institution": "University of Buenos Aires (UBA)",
+      "period": "2013 — 2020"
+    },
+    {
+      "title": "PC Repair Technician (I & II)",
+      "institution": "Centro de Formación Profesional N°28 Suterh",
+      "period": "2010 — 2011"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Data Analysis with Python",
+      "institution": "freeCodeCamp.org",
+      "year": "2024"
+    },
+    {
+      "title": "Full Stack JS Web Development",
+      "institution": "freeCodeCamp.org",
+      "year": "2019"
+    },
+    {
+      "title": "Web Layout I & II",
+      "institution": "Centro de Formación Profesional N°28 Suterh",
+      "year": "2011 — 2012"
+    }
+  ],
+  "languages": [
+    { "name": "Spanish", "level": "Native" },
+    { "name": "English", "level": "Intermediate-Advanced (Liceo Cultural Británico)" }
+  ]
 }
