@@ -14,8 +14,8 @@ export function SkillsSection() {
   const [active, setActive] = useState<string>("all")
 
   const filters = useMemo(
-    () => [{ id: "all", label: "Todas" }, ...skillCategories],
-    [skillCategories],
+    () => [{ id: "all", label: t.skills.all }, ...skillCategories],
+    [skillCategories, t.skills.all],
   )
 
   const visible = useMemo(
@@ -31,7 +31,7 @@ export function SkillsSection() {
     <section id="skills" className="scroll-mt-20 border-t border-border py-14">
       <SectionHeading index="01" title={t.skills.title} subtitle={t.skills.subtitle} />
 
-      <div className="mt-6 flex flex-wrap gap-2" role="tablist" aria-label="Filtrar skills">
+      <div className="mt-6 flex flex-wrap gap-2" role="tablist" aria-label={t.skills.filterLabel}>
         {filters.map((f) => (
           <button
             key={f.id}
