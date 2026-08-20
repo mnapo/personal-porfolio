@@ -91,6 +91,12 @@
       "tags": ["Next.js", "Vercel"]
     },
     {
+      "name": "WooLabels",
+      "description": "Herramienta para impresión de etiquetas de productos de WooCommerce",
+      "url": "https://github.com/mnapo/woo-labels",
+      "tags": ["Next.js", "WooCommerce"]
+    },
+    {
       "name": "Presupuestador",
       "description": "Motor de cotización automatizado. Código disponible en GitHub.",
       "url": "https://github.com/mnapo",
@@ -101,12 +107,6 @@
       "description": "Software de ticketing interno para eficiencia operativa. Código en GitHub.",
       "url": "https://github.com/mnapo/expo-app-wrapper",
       "tags": ["Herramienta", "Interno"]
-    },
-    {
-      "name": "WooLabels",
-      "description": "Herramienta para impresión de etiquetas de productos de WooCommerce",
-      "url": "https://github.com/mnapo/woo-labels",
-      "tags": ["Next.js", "WooCommerce"]
     }
   ],
   "education": [
