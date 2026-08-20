@@ -34,15 +34,16 @@ export function SiteHeader() {
           ))}
         </nav>
 
-      <div className="flex items-center gap-2">
-        <a
-          href="#contacto"
-          className="hidden rounded-full bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90 sm:inline-flex"
-        >
-          Contacto
-        </a>
-        <LanguageToggle />
-        <ThemeToggle />
+        <div className="flex items-center gap-2">
+          <a
+            href="#contacto"
+            className="hidden rounded-full bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90 sm:inline-flex"
+          >
+            Contacto
+          </a>
+          <LanguageToggle />
+          <ThemeToggle />
+        </div>
       </div>
     </header>
   )
