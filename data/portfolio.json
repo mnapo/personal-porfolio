@@ -82,7 +82,13 @@
       "name": "WooLabels",
       "description": "Herramienta para impresión de etiquetas de productos de WooCommerce",
       "url": "https://github.com/mnapo/woo-labels",
-      "tags": ["Next.js", "WooCommerce", "Dev-tools"]
+      "tags": ["WooCommerce", "Dev-tools"]
+    },
+    {
+      "name": "Ticket Management",
+      "description": "Herramienta de gestión IT",
+      "url": "https://github.com/mnapo/ticket-management",
+      "tags": ["Next.js", "Dev-tools"]
     },
     {
       "name": "Laino Pizzas",
