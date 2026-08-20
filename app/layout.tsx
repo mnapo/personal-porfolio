@@ -3,6 +3,8 @@ import type { Metadata, Viewport } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import "./globals.css"
 
+import { LanguageProvider } from "@/components/language-provider"
+
 const geistSans = Geist({ subsets: ["latin"], variable: "--font-geist-sans" })
 const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" })
 
@@ -45,9 +47,11 @@ export default function RootLayout({
   return (
     <html lang="es" className={`bg-background ${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
       <body className="font-sans antialiased">
-        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
-        {children}
-        {process.env.NODE_ENV === "production" && <Analytics />}
+        <LanguageProvider>
+          <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+          {children}
+          {process.env.NODE_ENV === "production" && <Analytics />}
+        </LanguageProvider>
       </body>
     </html>
   )

@@ -1,11 +1,13 @@
 "use client"
 
 import { GraduationCap, Award, Languages } from "lucide-react"
-import { portfolio } from "@/lib/portfolio"
+import { getPortfolio } from "@/lib/portfolio"
+import { useLanguage } from "@/components/language-provider"
 import { SectionHeading } from "@/components/section-heading"
 
 export function BackgroundSection() {
-  const { education, certifications, languages } = portfolio
+  const { language } = useLanguage()
+  const { education, certifications, languages } = getPortfolio(language)
 
   return (
     <section id="formacion" className="scroll-mt-20 border-t border-border py-14">

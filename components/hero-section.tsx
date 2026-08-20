@@ -3,10 +3,12 @@
 import Image from "next/image"
 import { Mail, MapPin, ArrowUpRight } from "lucide-react"
 import { GithubIcon } from "@/components/icons"
-import { portfolio } from "@/lib/portfolio"
+import { getPortfolio } from "@/lib/portfolio"
+import { useLanguage } from "@/components/language-provider"
 
 export function HeroSection() {
-  const { profile } = portfolio
+  const { language } = useLanguage()
+  const { profile } = getPortfolio(language)
 
   return (
     <section id="sobre-mi" className="scroll-mt-20 pt-14 pb-16 md:pt-20">

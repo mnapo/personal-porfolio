@@ -1,0 +1,16 @@
+{
+  "profile": {
+    "name": "Matías Nápoli",
+    "role": "Full Stack Developer",
+    "subrole": "Data Science & AI Student",
+    "tagline": "I build end-to-end web applications and explore data to solve real-world problems.",
+    "summary": "Full Stack Developer focused on the JavaScript/React ecosystem, with real-world experience deploying production platforms. Currently studying Data Science and AI, combining software development with data analysis and machine learning.",
+    "location": "Buenos Aires, Argentina",
+    "email": "napolimatiase@gmail.com",
+    "phone": "+54 11 5486 4458",
+    "github": "https://github.com/mnapo",
+    "githubUser": "mnapo",
+    "avatar": "/avatar.png",
+    "status": "Available for new projects"
+  }
+}
