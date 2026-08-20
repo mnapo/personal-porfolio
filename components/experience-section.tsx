@@ -1,9 +1,11 @@
 import { Briefcase } from "lucide-react"
-import { portfolio } from "@/lib/portfolio"
+import { getPortfolio } from "@/lib/portfolio"
+import { useLanguage } from "@/components/language-provider"
 import { SectionHeading } from "@/components/section-heading"
 
 export function ExperienceSection() {
-  const { experience } = portfolio
+  const { language } = useLanguage()
+  const { experience } = getPortfolio(language)
 
   return (
     <section id="experiencia" className="scroll-mt-20 border-t border-border py-14">
