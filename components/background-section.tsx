@@ -2,16 +2,18 @@
 
 import { GraduationCap, Award, Languages } from "lucide-react"
 import { getPortfolio } from "@/lib/portfolio"
+import { getTranslations } from "@/lib/translations"
 import { useLanguage } from "@/components/language-provider"
 import { SectionHeading } from "@/components/section-heading"
 
 export function BackgroundSection() {
   const { language } = useLanguage()
   const { education, certifications, languages } = getPortfolio(language)
+  const t = getTranslations(language)
 
   return (
     <section id="formacion" className="scroll-mt-20 border-t border-border py-14">
-      <SectionHeading index="04" title="Formación" subtitle="Educación, certificaciones e idiomas" />
+      <SectionHeading index="04" title={t.background.title} subtitle={t.background.subtitle} />
 
       <div className="mt-8 grid gap-8 md:grid-cols-2">
         <div>

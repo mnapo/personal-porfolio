@@ -9,11 +9,12 @@ import { SectionHeading } from "@/components/section-heading"
 export function ProjectsSection() {
   const { language } = useLanguage()
   const { projects, profile } = getPortfolio(language)
+  const t = getTranslations(language)
 
   return (
     <section id="proyectos" className="scroll-mt-20 border-t border-border py-14">
       <div className="flex flex-wrap items-end justify-between gap-4">
-        <SectionHeading index="03" title="Proyectos" subtitle="Plataformas y herramientas" />
+        <SectionHeading index="03" title={t.projects.title} subtitle={t.projects.subtitle} />
         <a
           href={profile.github}
           target="_blank"

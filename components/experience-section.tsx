@@ -2,16 +2,18 @@
 
 import { Briefcase } from "lucide-react"
 import { getPortfolio } from "@/lib/portfolio"
+import { getTranslations } from "@/lib/translations"
 import { useLanguage } from "@/components/language-provider"
 import { SectionHeading } from "@/components/section-heading"
 
 export function ExperienceSection() {
   const { language } = useLanguage()
   const { experience } = getPortfolio(language)
+  const t = getTranslations(language)
 
   return (
     <section id="experiencia" className="scroll-mt-20 border-t border-border py-14">
-      <SectionHeading index="02" title="Experiencia" subtitle="Trayectoria profesional" />
+      <SectionHeading index="02" title={t.experience.title} subtitle={t.experience.subtitle} />
 
       <ol className="mt-8 space-y-10">
         {experience.map((job, i) => (

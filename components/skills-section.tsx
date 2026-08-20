@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react"
 import { getPortfolio } from "@/lib/portfolio"
+import { getTranslations } from "@/lib/translations"
 import { useLanguage } from "@/components/language-provider"
 import { SectionHeading } from "@/components/section-heading"
 import { cn } from "@/lib/utils"
@@ -9,6 +10,7 @@ import { cn } from "@/lib/utils"
 export function SkillsSection() {
   const { language } = useLanguage()
   const { skills, skillCategories } = getPortfolio(language)
+  const t = getTranslations(language)
   const [active, setActive] = useState<string>("all")
 
   const filters = useMemo(
@@ -27,7 +29,7 @@ export function SkillsSection() {
 
   return (
     <section id="skills" className="scroll-mt-20 border-t border-border py-14">
-      <SectionHeading index="01" title="Skills" subtitle="Conocimientos técnicos" />
+      <SectionHeading index="01" title={t.skills.title} subtitle={t.skills.subtitle} />
 
       <div className="mt-6 flex flex-wrap gap-2" role="tablist" aria-label="Filtrar skills">
         {filters.map((f) => (
