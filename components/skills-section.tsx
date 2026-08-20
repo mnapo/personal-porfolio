@@ -1,12 +1,14 @@
 "use client"
 
 import { useMemo, useState } from "react"
-import { portfolio } from "@/lib/portfolio"
+import { getPortfolio } from "@/lib/portfolio"
+import { useLanguage } from "@/components/language-provider"
 import { SectionHeading } from "@/components/section-heading"
 import { cn } from "@/lib/utils"
 
 export function SkillsSection() {
-  const { skills, skillCategories } = portfolio
+  const { language } = useLanguage()
+  const { skills, skillCategories } = getPortfolio(language)
   const [active, setActive] = useState<string>("all")
 
   const filters = useMemo(
