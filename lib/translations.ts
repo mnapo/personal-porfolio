@@ -12,6 +12,10 @@ export const translations = {
       contact: "Contacto",
       navigation: "Navegación principal",
     },
+    hero: {
+      github: "Ver GitHub",
+      contact: "Escribime",
+    },
     skills: {
       title: "Skills",
       subtitle: "Conocimientos técnicos",
@@ -53,6 +57,10 @@ export const translations = {
     header: {
       contact: "Contact",
       navigation: "Main navigation",
+    },
+    hero: {
+      github: "View GitHub",
+      contact: "Get in touch",
     },
     skills: {
       title: "Skills",
