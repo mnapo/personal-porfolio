@@ -73,7 +73,7 @@ export function HeroSection() {
           className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
         >
           <GithubIcon className="size-4" />
-          {t.footer.github === "GitHub" ? "Ver GitHub" : "View GitHub"}
+          {t.hero.github}
           <ArrowUpRight className="size-4" />
         </a>
         <a
@@ -81,7 +81,7 @@ export function HeroSection() {
           className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-5 py-2.5 text-sm font-medium transition-colors hover:bg-accent"
         >
           <Mail className="size-4" />
-          {language === "en" ? "Get in touch" : "Escribime"}
+          {t.hero.contact}
         </a>
       </div>
     </section>
