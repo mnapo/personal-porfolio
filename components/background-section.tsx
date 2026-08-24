@@ -19,7 +19,7 @@ export function BackgroundSection() {
         <div>
           <h3 className="flex items-center gap-2 text-sm font-semibold">
             <GraduationCap className="size-4 text-brand" />
-            Educación
+            {t.background.education}
           </h3>
           <ul className="mt-4 space-y-4">
             {education.map((e, i) => (
@@ -36,7 +36,7 @@ export function BackgroundSection() {
           <div>
             <h3 className="flex items-center gap-2 text-sm font-semibold">
               <Award className="size-4 text-brand" />
-              Certificaciones
+              {t.background.certifications}
             </h3>
             <ul className="mt-4 space-y-3">
               {certifications.map((c, i) => (
@@ -54,7 +54,7 @@ export function BackgroundSection() {
           <div>
             <h3 className="flex items-center gap-2 text-sm font-semibold">
               <Languages className="size-4 text-brand" />
-              Idiomas
+              {t.background.languages}
             </h3>
             <ul className="mt-4 space-y-2">
               {languages.map((l, i) => (
