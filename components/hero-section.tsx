@@ -4,11 +4,13 @@ import Image from "next/image"
 import { Mail, MapPin, ArrowUpRight } from "lucide-react"
 import { GithubIcon } from "@/components/icons"
 import { getPortfolio } from "@/lib/portfolio"
+import { getTranslations } from "@/lib/translations"
 import { useLanguage } from "@/components/language-provider"
 
 export function HeroSection() {
   const { language } = useLanguage()
   const { profile } = getPortfolio(language)
+  const t = getTranslations(language)
 
   return (
     <section id="sobre-mi" className="scroll-mt-20 pt-14 pb-16 md:pt-20">
@@ -71,7 +73,7 @@ export function HeroSection() {
           className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
         >
           <GithubIcon className="size-4" />
-          Ver GitHub
+          {t.footer.github === "GitHub" ? "Ver GitHub" : "View GitHub"}
           <ArrowUpRight className="size-4" />
         </a>
         <a
@@ -79,7 +81,7 @@ export function HeroSection() {
           className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-5 py-2.5 text-sm font-medium transition-colors hover:bg-accent"
         >
           <Mail className="size-4" />
-          Escribime
+          {language === "en" ? "Get in touch" : "Escribime"}
         </a>
       </div>
     </section>
