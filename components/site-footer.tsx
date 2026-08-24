@@ -3,18 +3,20 @@
 import { Mail, ArrowUpRight } from "lucide-react"
 import { GithubIcon } from "@/components/icons"
 import { getPortfolio } from "@/lib/portfolio"
+import { getTranslations } from "@/lib/translations"
 import { useLanguage } from "@/components/language-provider"
 
 export function SiteFooter() {
   const { language } = useLanguage()
   const { profile } = getPortfolio(language)
+  const t = getTranslations(language)
 
   return (
     <footer id="contacto" className="scroll-mt-20 border-t border-border py-14">
       <div className="rounded-2xl border border-border bg-card p-8 md:p-10">
-        <p className="font-mono text-xs text-brand">Contacto</p>
+        <p className="font-mono text-xs text-brand">{t.footer.contact}</p>
         <h2 className="mt-3 text-pretty text-2xl font-semibold tracking-tight md:text-3xl">
-          ¿Trabajamos juntos?
+          {t.footer.title}
         </h2>
         <p className="mt-3 max-w-md text-pretty text-muted-foreground">
           {profile.tagline}
@@ -35,7 +37,7 @@ export function SiteFooter() {
             className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-5 py-2.5 text-sm font-medium transition-colors hover:bg-accent"
           >
             <GithubIcon className="size-4" />
-            GitHub
+            {t.footer.github}
             <ArrowUpRight className="size-4" />
           </a>
         </div>
