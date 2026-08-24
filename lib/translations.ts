@@ -79,7 +79,7 @@ export const translations = {
     },
     footer: {
       contact: "Contact",
-      title: "Let's work together?",
+      title: "Shall we work together?",
       github: "GitHub",
       emailAction: "Get in touch",
     },
